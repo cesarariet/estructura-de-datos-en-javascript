@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estructura de datos con Javascript</title>
+  </head>
+  <body>
+    <h1>Estructura de datos con Javascript</h1>
+    <script src="hashTable.js"></script>
+    <h2>Hash tables</h2>
+    <p>Es una estructura donde se reserva un espacio de memoria.</p>
+    <p>
+      Es como un objeto que tiene un key y un value, pero para acceder al valor
+      es necesario indicar un hash.
+    </p>
+    <p>
+      A los elementos formados por el hash, key y value se lo denomina bucket
+    </p>
+    <p>
+      Lo bueno de la hashtable es que es opaca, no se puede conoce los valores a
+      menos que se ingrese la dirección (hash) correcto.
+    </p>
+    <h3>Metodos</h3>
+    <ul>
+      <li>insert: agregar elementos a la hash table</li>
+      <li>search: dado un key buscar su value</li>
+      <li>delete: borrar un bucket</li>
+			<li>keys: devuelve un array con todas las keys de la hash table</li>
+    </ul>
+		<h2>Linked List</h2>
+		<script src="linkedList.js"></script>
+		<p>Es una estructura donde hay:
+			<ul>
+				<li>Un head: primer nodo con su valor y apuntando al segundo nodo.</li>
+				<li>nodos que indican su valor y apuntan al siguiente nodo. </li>
+				<li>un tail: es un nodo final con un valor y que apunta a null.</li>
+			</ul>
+		</p>
+		<h3>Metodos</h3>
+		<ul>
+			<li>pretend: Agregar un nodo al inicio que se convierte en el head.</li>
+			<li>append: agregar un nodo al final que se convierte en el tail.</li>
+			<li>lookup/search: buscar un nodo.</li>
+			<li>insert: agregar un nodo en la lista en una posicion.</li>
+			<li>delete: borra un nodo.</li>
+		</ul>
+  </body>
+</html>
