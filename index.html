@@ -89,6 +89,22 @@
       <li>insert: insertar un nodo.</li>
       <li>delete: borrar un nodo.</li>
     </ul>
+    <h2>Graphs</h2>
+    <script src="graphs.js"></script>
+    <p>Conexión entre nodos unidireccionales o bidireccionales.</p>
+    <p>Para representar grafos tenemos tres formas de hacerlo:</p>
+    <ul>
+      <li>Edge List: lista de array que tiene todas las conexiones entre pares de nodos.</li>
+      <li>Adjacent List: array de las conexiones de cada nodo, donde cada indice es un array de las conexiones del nodo. También puede ser un objetos keys son indices y su value es un array de lo nodos conectados.
+      </li>
+      <li>Adjacent Matrix: matriz de ceros y unos que tiene un 1 en el indice i,j si el nodo i conecta con el nodo j.</li>
+
+    </ul>
+    <h3>Métodos</h3>
+    <ul>
+      <li>addVertex(node): agregar un vertice al grafo de valor node.</li>
+      <li>addEdge(nodeStart,nodeEnd): agrega una conexión desde un nodo inicio (nodeStart) a un nodo final (nodeEnd).</li>
+    </ul>
   </body>
   </html>
   
